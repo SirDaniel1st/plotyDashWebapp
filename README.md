@@ -1,11 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -14,7 +6,7 @@
     Spotify Data Analysis
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">BIG DATA PROJECT</h3>
 
   <p align="center">
   <h3>Abstract—</h3>Music an an intrinsic part of the human experience.One  method  of  consuming  music  in  the  modern  era  is  throughstreaming  platform,  of  which  Spotify  is  one  of  the  most  ubiq-uitous.  <br>
@@ -30,133 +22,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 We  have  decided  to  probe  into  Spotify’s  Song  and  TopCharts database to identify what attributes <br>characterize songson  the  Top  Charts.  We  aim  to  visualize  trends,  investigate  iftrends have seasonality and whether genre and acoustic featurefluctuate  by  season  and  location.  With  this,  we  will  createmodels to predict if a particular song will be in the top charts.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Our DataSet
+The  Spotify  music  data  was  obtained  from  two  differentKaggle  datasets  namely  the  Spotify  1.2M+  Songs  dataset  byRodolfo Figueroa and Spotify Charts dataset by Dhruvil Dave.Due to the Spotify Charts dataset being updated more regularlythan the Spotify 1.2M+ Songs dataset, more recent songs aremissing  from  the  latter.  Therefore,  the  Spotify  API  is  usedto  supplement  the  existing  data  and  fill  any  missing  datafrom  either  dataset.  The  data  from  both  datasets  is  mergedusing  the  internal  Spotify  ID  as  the  key  in  order  to  combinetrack  features  for  particular  songs  as  well  as  to  allow  formeaningful  analysis  of  the  data.  Additionally,  for  supervisedlearning  songs  that  did  not  make  the  Top  or  Viral  lists  wereextracted from the Song dataset and combined with songs thatdid in equal measure.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Download our [Datasets](https://myuwi-my.sharepoint.com/:f:/g/personal/rajiv_sadho1_my_uwi_edu/ErZLCIrxDDNLkX9RqA4maS8BK9Y9Q068UeQGermqtMTtHA?e=qrSnIU)   
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+## FireBase
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Park, Minsu, et al. “Global Music Streaming Data Reveal Diurnal andSeasonal  Patterns  of  Affective  Preference.”  Nature  Human  Behaviour,vol.  3,  no.  3,  2019,  pp.  230–236](https://doi.org/10.1038/s41562-018-0508-z.)
+* [raujo, Carlos Soares, et al. “Predicting Music Popularity on StreamingPlatforms.”  Anais  Do  Simp ́osio  Brasileiro  De  Computac ̧ ̃ao  Musical(SBCM 2019), 2019.](ttps://doi.org/10.5753/sbcm.2019.10436.)
+* [astie, T., Tibshirani, R., Friedman, J. Unsupervised Learning. In: TheElements of Statistical Learning. Springer Series in Statistics. Springer,New York, NY. 2009. ](ttps://doi.org/10.1007/978-0-387-84858-714)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
