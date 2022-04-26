@@ -1,0 +1,38 @@
+{% extends 'base.html'%}
+{% load static %}
+{% load plotly_dash %}
+{% block content %}
+<h1>SEASONALITY OF SPAIN</h1>
+  <div class="card"style="height: 100%; width: 100%">
+    {% autoescape off %}
+    <h3 style="text-align:center;">Time Series Showing Danceability For Spain Top 200 Charts</h3>
+    {{ p_d }}
+    <h3 style="text-align:center;">Time Series Showing Energy For Spain Top 200 Charts</h3>
+    {{ p_e }}
+    <h3 style="text-align:center;">Time Series Showing Key For Spain Top 200 Charts</h3>
+    {{ p_k }}
+    <h3 style="text-align:center;">Time Series Showing Loudness For Spain Top 200 Charts</h3>
+    {{ p_l }}
+    <h3 style="text-align:center;">Time Series Showing Mode For Spain Top 200 Charts</h3>
+    {{ p_m }}
+    <h3 style="text-align:center;">Time Series Showing Speechiness For Spain Top 200 Charts</h3>
+    {{ p_s }}
+    <h3 style="text-align:center;">Time Series Showing Acousticness For Spain Top 200 Charts</h3>
+    {{ p_a }}
+    <h3 style="text-align:center;">Time Series Showing Instrumentalness For Spain Top 200 Charts</h3>
+    {{ p_i }}
+    <h3 style="text-align:center;">Time Series Showing Liveness For Spain Top 200 Charts</h3>
+    {{ p_li }}
+    <h3 style="text-align:center;">Time Series Showing Valence For Spain Top 200 Charts</h3>
+    {{ p_v }}
+    <h3 style="text-align:center;">Time Series Showing Tempo For Spain Top 200 Charts</h3>
+    {{ p_t }}
+    <h3 style="text-align:center;">Time Series Showing Duration(ms) For Spain Top 200 Charts</h3>
+    {{ p_d }}
+    {% endautoescape %}
+  </div>
+  <!--#'energy','key','loudness','mode','speechiness','acousticness','instrumentalness','liveness','valence','tempo','duration_ms'-->
+
+
+
+{%endblock%}
