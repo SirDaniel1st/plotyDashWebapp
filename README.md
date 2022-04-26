@@ -39,6 +39,6 @@ Download our [Datasets](https://myuwi-my.sharepoint.com/:f:/g/personal/rajiv_sad
 ## Acknowledgments
 
 * [Park, Minsu, et al. “Global Music Streaming Data Reveal Diurnal andSeasonal  Patterns  of  Affective  Preference.”  Nature  Human  Behaviour,vol.  3,  no.  3,  2019,  pp.  230–236](https://doi.org/10.1038/s41562-018-0508-z.)
-* [raujo, Carlos Soares, et al. “Predicting Music Popularity on StreamingPlatforms.”  Anais  Do  Simp ́osio  Brasileiro  De  Computac ̧ ̃ao  Musical(SBCM 2019), 2019.](ttps://doi.org/10.5753/sbcm.2019.10436.)
-* [astie, T., Tibshirani, R., Friedman, J. Unsupervised Learning. In: TheElements of Statistical Learning. Springer Series in Statistics. Springer,New York, NY. 2009. ](ttps://doi.org/10.1007/978-0-387-84858-714)
+* [Araujo, Carlos Soares, et al. “Predicting Music Popularity on StreamingPlatforms.”  Anais  Do  Simp ́osio  Brasileiro  De  Computac ̧ ̃ao  Musical(SBCM 2019), 2019.](https://doi.org/10.5753/sbcm.2019.10436.)
+* [Hastie, T., Tibshirani, R., Friedman, J. Unsupervised Learning. In: TheElements of Statistical Learning. Springer Series in Statistics. Springer,New York, NY. 2009. ](https://doi.org/10.1007/978-0-387-84858-714)
 
